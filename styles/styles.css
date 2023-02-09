@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* ========================First Section Header's style ==================================*/
+.header {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+
+.header-image {
+    transform: scaleX(-1);
+  width: 100%;
+  
+
+}
+
+.header-title {
+    position: absolute;
+    align-items: center;
+    margin-top: 216px;
+    margin-bottom: 166px;
+    margin-left: 10px;
+    padding: 50px;
+    width: 525px;
+    height: 228px;
+
+}
+
+.strong-text{
+    font-size: 65px;
+    font-weight: 700;
+    color:#444343;
+    
+}
+.orange-btn{
+    width: 164px;
+    height: 60px;
+    background-color: #F15B22;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 32px;    
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 20px; 
+   }
+
+    .normal-text{
+        margin-top: 40px;
+        margin-bottom: 80px;
+
+    }
+
+
+/* ============================Second section failure reason style's===================== */
+
+.failure-reason{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 135px;
+    margin-bottom: 135px;
+}
+
+.intro-image{
+    width: 569px;
+    height: 723px;
+}
+
+.explain-reason{
+    width: 516px;
+    height: 400px;
+    margin-left: 80px;
+    margin-top: 170px;
+}
+.description-text{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+/* ====================Plan Section Styles ======================*/
+
+.plan{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.plan-name{
+    width: 218px;
+    height: 197px;
+    
+}
+
+/* ==================Blend two picture=============== */
+.blend{
+    background-image: url("../images/watch.png");
+    background-repeat: no-repeat;
+           
+}
+
+.mindset{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.be-positive{
+    position: absolute;
+    margin-left: -45em;
+    margin-top: 5em;
+}
+.call-now{
+    width: 164px;
+    height: 60px;
+    background-color: aliceblue;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 32px;    
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px; 
+}
+/* ===========================Footer Styles =======================*/
+
+.social-media-icon{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+

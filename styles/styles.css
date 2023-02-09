@@ -165,9 +165,18 @@
 
 .social-media-icon {
     display: flex;
+    align-items: center;
     justify-content: space-around;
     text-decoration: none;
 }
+
+.social-media-icon a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
 
 .subscribe {
     width: 325px;

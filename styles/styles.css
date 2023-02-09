@@ -153,13 +153,14 @@
     display: flex;
     justify-content: space-around;
     margin-top: 130px;
-    background-color: black;
+    background-color: rgb(34, 33, 33);
     color: aliceblue;
 }
 
 .contact {
     width: 485px;
     height: 317px;
+    margin-top: 7em;
 }
 
 .social-media-icon {
@@ -171,4 +172,28 @@
 .subscribe {
     width: 325px;
     height: 204px;
+    margin-top: 7em;
+}
+
+.subscribe a {
+    display: block;
+    text-decoration: none;
+    color: #F15B22;
+    margin-top: 40px;
+    background-color: aliceblue;
+    width: 110px;
+    height: 24px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 500;
+
+}
+
+.email {
+    width: 325px;
+    height: 64px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
 }
